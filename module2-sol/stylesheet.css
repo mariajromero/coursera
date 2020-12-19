@@ -1,12 +1,23 @@
+div{
+    box-sizing:border-box;
+
+}
 h1{
     text-align:center;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding:20px;
+  
 }
 .content{
     background-color:grey;
     border:1px solid black;
     padding-left:20px;
     padding-right:20px;
-    margin-right:10px;
+    margin-right:1%;
     margin-top:10px;
     position:relative;
 
@@ -58,7 +69,7 @@ p{
     
     .col-lg-4{
         width:27%;
-        float:left;
+        
 
     }
 
@@ -68,11 +79,14 @@ p{
     
     .col-md-6{
         width:40%;
-        float:left;
+        flex-grow:1;
+        
     }
     .col-md-12{
-        width:80%;
-        float:left;
+        width:81%;
+        flex-grow:1;
+        
+
     }
 
 }
@@ -80,7 +94,7 @@ p{
    
     .col-sm-12{
         width:80%;
-        float:left;
+        
     }
 
 }
