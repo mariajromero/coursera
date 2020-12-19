@@ -1,0 +1,49 @@
+div{
+    background-color:grey;
+    border:3px solid black;
+
+}
+.subtitle1{
+    background-color:rgb(241, 157, 171);
+    border:3px solid black;
+
+}
+.subtitle2{
+    background-color:rgb(167, 65, 82);
+    border:3px solid black;
+
+}
+.subtitle3{
+    background-color:rgb(219, 221, 117);
+    border:3px solid black;
+}
+@media (min-width: 992px){
+    
+    .col-lg-4{
+        width:33%;
+        float:left;
+
+    }
+
+}
+
+@media (min-width: 768px), (max-width:991px){
+    
+    .col-md-6{
+        width:40%;
+        float:left;
+    }
+    .col-md-12{
+        width:80%;
+        float:left;
+    }
+
+}
+@media (max-width:767px){
+   
+    .col-sm-12{
+        width:80%;
+        float:left;
+    }
+
+}
